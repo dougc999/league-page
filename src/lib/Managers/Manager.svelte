@@ -23,9 +23,9 @@
 
     $: ({rosterID, year} = viewManager.managerID ? getRosterIDFromManagerID(leagueTeamManagers, viewManager.managerID) : {rosterID: viewManager.roster, year: null});
 
-    //$: teamTransactions = transactions.filter(t => t.rosters.includes(parseInt(rosterID)));
+    $: teamTransactions = transactions.filter(t => t.rosters.includes(parseInt(rosterID)));
 
-    //$: roster = rosters[rosterID];
+    $: roster = rosters[rosterID];
 
     $: coOwners = year && rosterID ? leagueTeamManagers.teamManagersMap[year][rosterID].managers.length > 1 : roster.co_owners;
 
@@ -34,26 +34,26 @@
     let players, playersInfo;
     let loading = true;
 
-   // const refreshTransactions = async () => {
-   //     const newTransactions = await getLeagueTransactions(false, true);
-   //     transactions = newTransactions.transactions;
+    const refreshTransactions = async () => {
+        const newTransactions = await getLeagueTransactions(false, true);
+        transactions = newTransactions.transactions;
     }
 
-    //onMount(async () => {
-    //    if(transactionsData.stale) {
-     //       refreshTransactions();
-     //   }
-     //   const playerData = await loadPlayers(null);
-     //   playersInfo = playerData;
-     //   players = playerData.players;
-     //   loading = false;
+    onMount(async () => {
+        if(transactionsData.stale) {
+            refreshTransactions();
+        }
+        const playerData = await loadPlayers(null);
+        playersInfo = playerData;
+	  players = playerData.players;
+        loading = false;
 
-      //  if(playerData.stale) {
-      //      const newPlayerData = await loadPlayers(null, true);
-      //      playersInfo = newPlayerData;
-      //      players = newPlayerData.players;
-     //   }
-  //  })
+        if(playerData.stale) {
+            const newPlayerData = await loadPlayers(null, true);
+            playersInfo = newPlayerData;
+            players = newPlayerData.players;
+        }
+    })
 
     const changeManager = (newManager, noscroll = false) => {
         if(!newManager) {
