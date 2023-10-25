@@ -26,10 +26,9 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-    //   "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+    
         "managerID": "917459663283720192",
-    "name": "Jack Reilly",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+        "name": "Jack",
     //   "location": "Brooklyn", // (optional)
     //   "bio": "Lorem ipsum...",
     //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -49,10 +48,10 @@ export const managers = [
     //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-    //   "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+    
          "managerID": "996584871835426816",
-      "name": "Matt Patterson",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+         "name": "Matt",
+
     //   "location": "Brooklyn", // (optional)
     //   "bio": "Lorem ipsum...",
     //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -72,10 +71,10 @@ export const managers = [
     //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-    //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Doug Crawford",
+    
+          "name": "Doug",
           "managerID": "996586191216611328",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    
     //   "location": "Brooklyn", // (optional)
     //   "bio": "Lorem ipsum...",
     //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -95,10 +94,10 @@ export const managers = [
     //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
   {
-    //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Mark Gratton",
+    
+          "name": "Mark",
           "managerID": "996586735301713920",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    
     //   "location": "Brooklyn", // (optional)
     //   "bio": "Lorem ipsum...",
     //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -118,10 +117,10 @@ export const managers = [
     //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
   {
-    //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Dominique Reilly",
+   
+          "name": "Dominique",
           "managerID": "996590566492336128",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    
     //   "location": "Brooklyn", // (optional)
     //   "bio": "Lorem ipsum...",
     //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -141,10 +140,10 @@ export const managers = [
     //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
    {
-    //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Anthony Pacitto",
+    
+          "name": "Anthony",
           "managerID": "996831696307691520",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    
     //   "location": "Brooklyn", // (optional)
     //   "bio": "Lorem ipsum...",
     //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -164,10 +163,10 @@ export const managers = [
     //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
   {
-    //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Karl Olsson",
+    
+          "name": "Karl",
           "managerID": "997120961453375488",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    
     //   "location": "Brooklyn", // (optional)
     //   "bio": "Lorem ipsum...",
     //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -187,10 +186,10 @@ export const managers = [
     //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
   {
-    //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Dave Chapin",
+  
+          "name": "Dave",
           "managerID": "997173115832664064",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    
     //   "location": "Brooklyn", // (optional)
     //   "bio": "Lorem ipsum...",
     //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -210,10 +209,8 @@ export const managers = [
     //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
   {
-    //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Stephanie Babic",
+          "name": "Steph",
           "managerID": "997194019153170432",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
     //   "bio": "Lorem ipsum...",
     //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -233,10 +230,9 @@ export const managers = [
     //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
   {
-    //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Dan Chapin",
+    
+          "name": "Dan",
           "managerID": "999032571612729344",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
     //   "bio": "Lorem ipsum...",
     //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
