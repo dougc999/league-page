@@ -119,7 +119,7 @@ export const managers = [
     },
   {
     //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "?",
+      "name": "Dominique Reilly",
           "managerID": "996590566492336128",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
@@ -142,7 +142,7 @@ export const managers = [
     },
    {
     //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "?",
+      "name": "Anthony Pacitto",
           "managerID": "996831696307691520",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
@@ -165,7 +165,7 @@ export const managers = [
     },
   {
     //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "?",
+      "name": "Karl Olsson",
           "managerID": "997120961453375488",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
@@ -211,7 +211,7 @@ export const managers = [
     },
   {
     //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "?",
+      "name": "Stephanie Babic",
           "managerID": "997194019153170432",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
