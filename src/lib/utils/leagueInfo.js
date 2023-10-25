@@ -188,7 +188,7 @@ export const managers = [
     },
   {
     //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "?",
+      "name": "Dave Chapin",
           "managerID": "997173115832664064",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
@@ -234,7 +234,7 @@ export const managers = [
     },
   {
     //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "?",
+      "name": "Dan Chapin",
           "managerID": "999032571612729344",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
